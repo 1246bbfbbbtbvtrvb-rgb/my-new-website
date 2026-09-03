@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code Jharkhand | Learn Coding</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>💻 Code Jharkhand</h1>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="darkMode">🌙</button>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Learn Coding. Build Your Future. 🚀</h2>
+
+        <p>
+            Web Development, Programming and Technology
+            in simple language.
+        </p>
+
+        <a href="#blogs" class="btn">Explore Blogs</a>
+    </section>
+
+
+    <!-- Blogs -->
+    <section class="blogs" id="blogs">
+
+        <h2>Latest Blogs</h2>
+
+        <div class="blog-container">
+
+            <div class="card">
+                <h3>🌐 Learn HTML</h3>
+
+                <p>
+                    HTML se website banana seekho
+                    from beginner level.
+                </p>
+
+                <button onclick="showMessage('HTML Blog Coming Soon!')">
+                    Read More
+                </button>
+            </div>
+
+
+            <div class="card">
+                <h3>🎨 Learn CSS</h3>
+
+                <p>
+                    CSS se beautiful aur responsive
+                    websites banana seekho.
+                </p>
+
+                <button onclick="showMessage('CSS Blog Coming Soon!')">
+                    Read More
+                </button>
+            </div>
+
+
+            <div class="card">
+                <h3>⚡ Learn JavaScript</h3>
+
+                <p>
+                    JavaScript se apni website ko
+                    interactive banao.
+                </p>
+
+                <button onclick="showMessage('JavaScript Blog Coming Soon!')">
+                    Read More
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <h2>About Code Jharkhand</h2>
+
+        <p>
+            Code Jharkhand is a platform where you can learn
+            Web Development, Coding and Technology easily.
+        </p>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button onclick="showMessage('Thanks! Your message has been received.')">
+            Send Message
+        </button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Code Jharkhand | Made with ❤️</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
