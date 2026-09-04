@@ -223,3 +223,48 @@ footer {
     }
 
 }
+/* ===== Contact Section ===== */
+
+.contact {
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.contact textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+.contact button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact button:hover {
+    background: #1d4ed8;
+}
+
