@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn CSS | Code Jharkhand</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      background: #222;
+      text-align: center;
+      padding: 14px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .lesson {
+      background: white;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    pre {
+      background: #222;
+      color: #00ff88;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    .example-box {
+      background: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Code Jharkhand</h1>
+    <p>Learn CSS for Free 🚀</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="javascript.html">JavaScript</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="lesson">
+      <h2>CSS क्या है?</h2>
+
+      <p>
+        CSS का पूरा नाम Cascading Style Sheets है।
+        CSS का उपयोग Website को सुंदर और डिजाइन करने के लिए किया जाता है।
+      </p>
+    </div>
+
+    <div class="lesson">
+      <h2>CSS का पहला Code</h2>
+
+      <pre>
+body {
+  background: lightblue;
+}
+      </pre>
+
+      <div class="example-box">
+        यह CSS से Design किया गया Box है!
+      </div>
+    </div>
+
+    <div class="lesson">
+      <h2>Text का Color कैसे बदलें?</h2>
+
+      <pre>
+h1 {
+  color: red;
+}
+      </pre>
+
+      <p>इस code से सभी h1 headings का रंग बदल जाएगा।</p>
+    </div>
+
+    <div class="lesson">
+      <h2>Background Color</h2>
+
+      <pre>
+body {
+  background-color: yellow;
+}
+      </pre>
+    </div>
+
+    <div class="lesson">
+      <h2>CSS में Padding</h2>
+
+      <pre>
+div {
+  padding: 20px;
+}
+      </pre>
+
+      <p>Padding से element के अंदर space मिलता है।</p>
+    </div>
+
+    <div class="lesson">
+      <h2>अब आगे क्या सीखें?</h2>
+
+      <p>
+        HTML और CSS के बाद JavaScript सीखकर Website को Interactive बना सकते हो।
+      </p>
+
+      <a href="javascript.html" class="btn">
+        Learn JavaScript →
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Code Jharkhand | Learn Coding for Free</p>
+  </footer>
+
+</body>
+</html>
